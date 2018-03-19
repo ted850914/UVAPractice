@@ -13,22 +13,22 @@ bool check(long long int n){
 }
 void solve(int n){
 	long long int tmp;
-	
+
 	tmp=array[n]*2;
 	if(tmp<=maximum&&check(tmp)){
 		array.push_back(tmp);
 	}
-	
+
 	tmp=array[n]*3;
 	if(tmp<=maximum&&check(tmp)){
 		array.push_back(tmp);
 	}
-	
+
 	tmp=array[n]*5;
 	if(tmp<=maximum&&check(tmp)){
 		array.push_back(tmp);
 	}
-	
+
 	tmp=array[n]*7;
 	if(tmp<=maximum&&check(tmp)){
 		array.push_back(tmp);
